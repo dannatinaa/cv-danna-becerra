@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <!-- EDITAR AQUÍ — Título de la pestaña -->
+  <title>Danna Valentina Becerra — Portafolio</title>
+  <!-- EDITAR AQUÍ — Descripción corta para compartir -->
+  <meta name="description" content="Comunicadora Social y Periodista Digital. Contenido, comunicación interna y marketing digital.">
+
+  <!-- (Opcional) Si NO quieres que Google indexe tu página, quita los espacios de la línea de abajo (descomenta): -->
+  <!-- <meta name="robots" content="noindex, nofollow"> -->
+
+  <style>
+    :root {
+      --bg:#0f172a; --card:#111827; --text:#e5e7eb; --muted:#94a3b8; --accent:#22d3ee; --chip:#1f2937;
+    }
+    *{box-sizing:border-box}
+    body{margin:0;font-family:Inter,system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;background:linear-gradient(180deg,#0b1223,#0f172a 30%);color:var(--text);}
+    .wrap{max-width:980px;margin:0 auto;padding:24px}
+    header{display:flex;align-items:center;gap:18px;margin:12px 0 28px 0;}
+    .avatar{width:72px;height:72px;border-radius:50%;background:linear-gradient(135deg,#22d3ee33,#a78bfa33);display:flex;align-items:center;justify-content:center;font-weight:700}
+    h1{font-size:28px;line-height:1.2;margin:0}
+    .subtitle{color:var(--muted);margin-top:4px}
+    .card{background:radial-gradient(1200px 300px at 10% -10%,#22d3ee0f,transparent),var(--card);border:1px solid #1f2937;border-radius:16px;padding:20px;margin:16px 0;box-shadow:0 10px 30px rgba(0,0,0,.25)}
+    h2{font-size:18px;margin:0 0 12px 0;color:#e2e8f0}
+    p{margin:8px 0;color:#e5e7eb}
+    .grid{display:grid;grid-template-columns:repeat(12,1fr);gap:14px}
+    .col-4{grid-column:span 4}
+    .col-6{grid-column:span 6}
+    .col-12{grid-column:span 12}
+    @media(max-width:800px){.col-6,.col-4{grid-column:span 12}}
+    .chips{display:flex;flex-wrap:wrap;gap:8px}
+    .chip{background:var(--chip);padding:6px 10px;border:1px solid #374151;border-radius:999px;color:#e5e7eb;font-size:13px}
+    .muted{color:var(--muted);font-size:14px}
+    .btns{display:flex;gap:12px;flex-wrap:wrap;margin-top:12px}
+    .btn{background:var(--accent);color:#0b1223;border:none;padding:10px 14px;border-radius:12px;font-weight:700;text-decoration:none}
+    .btn.secondary{background:#1f2937;color:#e5e7eb;border:1px solid #334155}
+    .exp-item{margin-bottom:10px}
+    .exp-title{font-weight:700}
+    footer{margin:22px 0;color:var(--muted);font-size:13px}
+    a{color:#67e8f9}
+    .tag{color:#a5b4fc;font-weight:600}
+    .kpis{display:grid;grid-template-columns:repeat(12,1fr);gap:14px}
+    .kpi{grid-column:span 4;background:#0b1223;border:1px solid #1f2937;border-radius:14px;padding:16px;text-align:center}
+    .kpi b{font-size:28px;display:block;margin-bottom:6px}
+  </style>
+
+  <!-- GA4 base: REEMPLAZA G-XXXXXXXXXX por tu Measurement ID -->
+  <!-- EDITAR AQUÍ — reemplaza con tu ID real de GA4 -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    // EDITAR AQUÍ — Measurement ID
+    gtag('config', 'G-XXXXXXXXXX');
+  </script>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <div class="avatar">DV</div>
+      <div>
+        <!-- EDITAR AQUÍ — Nombre -->
+        <h1>Danna Valentina Becerra</h1>
+        <!-- EDITAR AQUÍ — Subtítulo -->
+        <div class="subtitle">Comunicadora Social y Periodista Digital · Contenidos · Comunicación Interna</div>
+        <!-- EDITAR AQUÍ — Contacto y redes -->
+        <div class="muted">Bogotá, Colombia · <a href="mailto:Danna28becerracastro@gmail.com">Danna28becerracastro@gmail.com</a> · <a href="https://instagram.com/dannatinaa" target="_blank">@dannatinaa</a> · <a href="https://www.linkedin.com/in/danna-valentina-becerra-a52757291/" target="_blank" rel="noopener">LinkedIn</a></div>
+        <div class="btns">
+          <!-- EDITAR AQUÍ — Botones -->
+          <a id="btn-contact" class="btn" href="mailto:Danna28becerracastro@gmail.com">Contáctame</a>
+          <a id="btn-cv" class="btn secondary" href="assets/Danna_Valentina_Becerra_CV_2025.pdf" download>Descargar CV</a>
+        </div>
+      </div>
+    </header>
+
+    <section class="card">
+      <h2>Perfil</h2>
+      <!-- EDITAR AQUÍ — Perfil (2–3 líneas) -->
+      <p>Creativa y estratégica, con experiencia en <span class="tag">comunicación interna</span>, <span class="tag">marketing de contenidos</span> y <span class="tag">producción audiovisual</span>. Domino herramientas Adobe y métricas para optimizar contenidos. Me encanta presentar en cámara y convertir ideas en resultados medibles.</p>
+      <div class="chips">
+        <!-- EDITAR AQUÍ — Chips de habilidades -->
+        <span class="chip">Copywriting</span>
+        <span class="chip">Presentación en cámara</span>
+        <span class="chip">Edición de video</span>
+        <span class="chip">Calendario editorial</span>
+        <span class="chip">KPIs: ER · CTR · Retención</span>
+      </div>
+    </section>
+
+    <section class="card">
+      <h2>Métricas</h2>
+      <!-- EDITAR AQUÍ — 3 KPIs (número + leyenda). Si aún no tienes, déjalo como placeholder y actualiza luego. -->
+      <div class="kpis">
+        <div class="kpi"><b>+45%</b> crecimiento de seguidores (proyecto X)</div>
+        <div class="kpi"><b>+60%</b> engagement mensual (campaña Y)</div>
+        <div class="kpi"><b>10K+</b> visualizaciones totales (video Z)</div>
+      </div>
+    </section>
+
+    <section class="card">
+      <h2>Proyectos destacados</h2>
+      <div class="grid">
+        <!-- EDITAR AQUÍ — Proyecto 1 -->
+        <div class="col-6">
+          <div class="exp-item">
+            <div class="exp-title">Levapan — Comunicación Interna <span class="muted">Ene 2025 – Actual</span></div>
+            <p class="muted">Contexto: piezas para pantallas, carteleras y correos.</p>
+            <ul>
+              <li><strong>Acción:</strong> Producción y edición de piezas internas.</li>
+              <li><strong>Resultado:</strong> ↑30% retención de mensajes (placeholder).</li>
+              <li><strong>Herramientas:</strong> Illustrator, Photoshop, Premiere.</li>
+            </ul>
+            <!-- (Opcional) Enlace a evidencia (imagen/video) -->
+            <!-- <a href="assets/levapan_demo.mp4" target="_blank">Ver pieza</a> -->
+          </div>
+        </div>
+        <!-- EDITAR AQUÍ — Proyecto 2 -->
+        <div class="col-6">
+          <div class="exp-item">
+            <div class="exp-title">Casa Palma Roja — Social Media <span class="muted">Ago 2023 – Dic 2023</span></div>
+            <p class="muted">Contexto: calendario editorial, Reels y copies.</p>
+            <ul>
+              <li><strong>Acción:</strong> Estrategia de contenido en IG y TikTok.</li>
+              <li><strong>Resultado:</strong> +45% seguidores, +60% ER (placeholder).</li>
+              <li><strong>Herramientas:</strong> CapCut, Canva, Insights.</li>
+            </ul>
+            <!-- <a href="assets/casapalmaroja_reel.mp4" target="_blank">Ver pieza</a> -->
+          </div>
+        </div>
+        <!-- EDITAR AQUÍ — Proyecto 3 -->
+        <div class="col-6">
+          <div class="exp-item">
+            <div class="exp-title">COM+ID FEST — Presentación y Contenido <span class="muted">Feb 2024 – Jun 2024</span></div>
+            <p class="muted">Contexto: conducción, entrevistas y cápsulas.</p>
+            <ul>
+              <li><strong>Acción:</strong> Entrevistas y edición breve para redes.</li>
+              <li><strong>Resultado:</strong> 10K+ vistas totales (placeholder).</li>
+              <li><strong>Herramientas:</strong> Premiere, Lightroom.</li>
+            </ul>
+            <!-- <a href="assets/comidfest_highlights.mp4" target="_blank">Ver pieza</a> -->
+          </div>
+        </div>
+        <!-- EDITAR AQUÍ — Proyecto 4 (opcional) -->
+        <div class="col-6">
+          <div class="exp-item">
+            <div class="exp-title">UGC Demo — CeraVe <span class="muted">2025</span></div>
+            <p class="muted">Contexto: guion corto + reel demo de producto.</p>
+            <ul>
+              <li><strong>Acción:</strong> Producción y copy con hook y CTA.</li>
+              <li><strong>Resultado:</strong> Métricas de vistas/guardados (añadir).</li>
+              <li><strong>Herramientas:</strong> CapCut, Lightroom.</li>
+            </ul>
+            <!-- <a href="assets/cerave_demo.mp4" target="_blank">Ver pieza</a> -->
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="card grid">
+      <div class="col-6">
+        <h2>Educación</h2>
+        <!-- EDITAR AQUÍ — Educación -->
+        <p><strong>Comunicación Social y Periodismo Digital</strong><br/>Universidad Sergio Arboleda (2021–2025)</p>
+        <p>Diplomado: Plan de Contenidos para Redes (2024)</p>
+        <p>Seminario: Comunicación Corporativa – Univ. de Salamanca (2024)</p>
+        <p>Curso: Marketing en Redes Sociales – Meta/Coursera (2024)</p>
+      </div>
+      <div class="col-6">
+        <h2>Habilidades</h2>
+        <!-- EDITAR AQUÍ — Habilidades -->
+        <p><strong>Herramientas:</strong> Illustrator, Photoshop, Premiere, Lightroom, CapCut, Canva</p>
+        <p><strong>Intermedio:</strong> Calendario editorial, Community Management, Métricas (Insights)</p>
+        <p><strong>En aprendizaje:</strong> GA4, Meta Ads, Power BI</p>
+        <p><strong>Idiomas:</strong> Español nativo · Inglés B1</p>
+      </div>
+    </section>
+
+    <section class="card">
+      <h2>Testimonios</h2>
+      <!-- EDITAR AQUÍ — Testimonios (opcional) -->
+      <p class="muted">“Danna aporta ideas accionables y ejecuta con criterio creativo.” — Nombre, Cargo</p>
+    </section>
+
+    <footer class="wrap">
+      © 2025 Danna Valentina Becerra • Hecho con cariño y café ☕
+    </footer>
+  </div>
+
+  <script>
+    // Eventos GA4 sencillos (requiere que reemplaces el Measurement ID arriba)
+    const btnCV = document.getElementById('btn-cv');
+    btnCV && btnCV.addEventListener('click', function(){
+      gtag('event', 'download_cv', {
+        file_name: 'Danna_Valentina_Becerra_CV_2025.pdf',
+        link_url: this.href
+      });
+    });
+    const btnContact = document.getElementById('btn-contact');
+    btnContact && btnContact.addEventListener('click', function(){
+      gtag('event', 'click_cta_contact', {
+        link_text: 'Contáctame',
+        link_url: this.href,
+        section: 'header'
+      });
+    });
+  </script>
+</body>
+</html>
